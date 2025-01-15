@@ -1,5 +1,5 @@
 {
-  "name": "out",
+  "name": "out", 
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
-    "next": "15.0.3"
+    "react": "latest", 
+    "react-dom": "latest", 
+    "next": "latest", 
+    "mongodb": "^5.0.0", 
+    "nanoid": "^4.0.0"  
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "typescript": "latest", 
+    "@types/node": "latest", 
+    "@types/react": "latest", 
+    "@types/react-dom": "latest", 
+    "postcss": "^8", 
+    "tailwindcss": "^3.4.1", 
+    "eslint": "latest", 
+    "eslint-config-next": "latest" 
   }
 }
